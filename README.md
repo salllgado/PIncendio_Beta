@@ -11,8 +11,12 @@ Requires iOS 10.0
 
 ## Author
 
-salllgado@hotmail.com.br, Chrystian Salgado
-Twitter: https://twitter.com/salllgadin
+Chrystian Salgado Martins dos Santos
+iOS Developer
+
+Contact
+- email: salgado.dev@gmail.com
+- Twitter: https://twitter.com/salllgadin
 
 ## License
 
