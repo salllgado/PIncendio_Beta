@@ -1,0 +1,23 @@
+{
+  "name": "CSUtils",
+  "version": "0.1.1",
+  "summary": "A short description of CSUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/salllgado@hotmail.com.br/CSUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "salllgado@hotmail.com.br": "Chrystian Salgado"
+  },
+  "source": {
+    "git": "https://github.com/salllgado@hotmail.com.br/CSUtils.git",
+    "tag": "0.1.1"
+  },
+  "social_media_url": "https://twitter.com/salllgadin",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CSUtils/Classes/**/*"
+}

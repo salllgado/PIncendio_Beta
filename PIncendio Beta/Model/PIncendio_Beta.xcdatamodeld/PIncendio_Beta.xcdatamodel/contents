@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Processo" representedClassName="Processo" syncable="YES" codeGenerationType="class">
+        <attribute name="altura" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpfCNPJ" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="nProcesso" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ocupacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="responsavelUso" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Processo" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>

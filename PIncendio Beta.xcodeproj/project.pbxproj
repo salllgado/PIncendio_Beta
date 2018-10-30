@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26660E11600F7E0FF3A334B5 /* Pods_PIncendio_Beta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C59A923AF0ECF1B83BB2F7 /* Pods_PIncendio_Beta.framework */; };
+		B80183C41FD44C8A000DE149 /* Processo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80183C31FD44C8A000DE149 /* Processo.swift */; };
+		B801A42E1FF034FB0072DB7A /* anexosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B801A42D1FF034FB0072DB7A /* anexosData.swift */; };
+		B80315F11F5B170D00661AD8 /* AnaliseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80315F01F5B170D00661AD8 /* AnaliseViewController.swift */; };
+		B80682401F5C371700E84EE9 /* PopulacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806823F1F5C371700E84EE9 /* PopulacaoViewController.swift */; };
+		B821F6CC1F5080D300FEDC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821F6CB1F5080D300FEDC49 /* AppDelegate.swift */; };
+		B821F6CE1F5080D300FEDC49 /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821F6CD1F5080D300FEDC49 /* ListaViewController.swift */; };
+		B821F6D11F5080D300FEDC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B821F6CF1F5080D300FEDC49 /* Main.storyboard */; };
+		B821F6D41F5080D300FEDC49 /* PIncendio_Beta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B821F6D21F5080D300FEDC49 /* PIncendio_Beta.xcdatamodeld */; };
+		B821F6D61F5080D300FEDC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B821F6D51F5080D300FEDC49 /* Assets.xcassets */; };
+		B821F6D91F5080D300FEDC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B821F6D71F5080D300FEDC49 /* LaunchScreen.storyboard */; };
+		B82D08621F50E1A000C76CEC /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D08611F50E1A000C76CEC /* CadastroViewController.swift */; };
+		B8C522981FDF5E27009BBEE8 /* CargaIncendioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C522971FDF5E26009BBEE8 /* CargaIncendioViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B869C5271F7D659B0014BDE2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A111693A65AB5A18682233E /* Pods-PIncendio Beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIncendio Beta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta.debug.xcconfig"; sourceTree = "<group>"; };
+		B80183C31FD44C8A000DE149 /* Processo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processo.swift; sourceTree = "<group>"; };
+		B801A42D1FF034FB0072DB7A /* anexosData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anexosData.swift; sourceTree = "<group>"; };
+		B80315F01F5B170D00661AD8 /* AnaliseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnaliseViewController.swift; sourceTree = "<group>"; };
+		B806823F1F5C371700E84EE9 /* PopulacaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulacaoViewController.swift; sourceTree = "<group>"; };
+		B821F6CB1F5080D300FEDC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B821F6CD1F5080D300FEDC49 /* ListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
+		B821F6D01F5080D300FEDC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B821F6D31F5080D300FEDC49 /* PIncendio_Beta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PIncendio_Beta.xcdatamodel; sourceTree = "<group>"; };
+		B821F6D51F5080D300FEDC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B821F6D81F5080D300FEDC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B82D08611F50E1A000C76CEC /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		B8C522971FDF5E26009BBEE8 /* CargaIncendioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargaIncendioViewController.swift; sourceTree = "<group>"; };
+		B8D756C11F7D69670028C20A /* PIncendio Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIncendio Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F106A21F9CCC550029E8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "PIncendio Beta/Info.plist"; sourceTree = "<group>"; };
+		C4383050EBBA7F6BA9AB7BB0 /* Pods-PIncendio Beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIncendio Beta.release.xcconfig"; path = "Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta.release.xcconfig"; sourceTree = "<group>"; };
+		F9C59A923AF0ECF1B83BB2F7 /* Pods_PIncendio_Beta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIncendio_Beta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B821F6C51F5080D300FEDC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26660E11600F7E0FF3A334B5 /* Pods_PIncendio_Beta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50CE35F7C9343D976B9CB549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A111693A65AB5A18682233E /* Pods-PIncendio Beta.debug.xcconfig */,
+				C4383050EBBA7F6BA9AB7BB0 /* Pods-PIncendio Beta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B821F6BF1F5080D300FEDC49 = {
+			isa = PBXGroup;
+			children = (
+				B821F6CA1F5080D300FEDC49 /* PIncendio Beta */,
+				B8F106A21F9CCC550029E8D4 /* Info.plist */,
+				B8D756C11F7D69670028C20A /* PIncendio Beta.app */,
+				50CE35F7C9343D976B9CB549 /* Pods */,
+				CECD7C8CD4D336F12DE125F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B821F6CA1F5080D300FEDC49 /* PIncendio Beta */ = {
+			isa = PBXGroup;
+			children = (
+				B84AFBEB1F9ABB3F0057B26A /* AppManagerment */,
+				B84AFBEE1F9ABBD70057B26A /* Media */,
+				B84AFBEA1F9ABB070057B26A /* Controllers */,
+				B84AFBEC1F9ABBB30057B26A /* Views */,
+				B84AFBED1F9ABBC30057B26A /* Model */,
+			);
+			path = "PIncendio Beta";
+			sourceTree = "<group>";
+		};
+		B84AFBEA1F9ABB070057B26A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B821F6CD1F5080D300FEDC49 /* ListaViewController.swift */,
+				B82D08611F50E1A000C76CEC /* CadastroViewController.swift */,
+				B80315F01F5B170D00661AD8 /* AnaliseViewController.swift */,
+				B806823F1F5C371700E84EE9 /* PopulacaoViewController.swift */,
+				B8C522971FDF5E26009BBEE8 /* CargaIncendioViewController.swift */,
+				B80183C31FD44C8A000DE149 /* Processo.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B84AFBEB1F9ABB3F0057B26A /* AppManagerment */ = {
+			isa = PBXGroup;
+			children = (
+				B821F6CB1F5080D300FEDC49 /* AppDelegate.swift */,
+			);
+			path = AppManagerment;
+			sourceTree = "<group>";
+		};
+		B84AFBEC1F9ABBB30057B26A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B821F6CF1F5080D300FEDC49 /* Main.storyboard */,
+				B821F6D71F5080D300FEDC49 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B84AFBED1F9ABBC30057B26A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B801A42D1FF034FB0072DB7A /* anexosData.swift */,
+				B821F6D21F5080D300FEDC49 /* PIncendio_Beta.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B84AFBEE1F9ABBD70057B26A /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B821F6D51F5080D300FEDC49 /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		CECD7C8CD4D336F12DE125F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9C59A923AF0ECF1B83BB2F7 /* Pods_PIncendio_Beta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B821F6C71F5080D300FEDC49 /* PIncendio Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B821F6DD1F5080D300FEDC49 /* Build configuration list for PBXNativeTarget "PIncendio Beta" */;
+			buildPhases = (
+				E0E20F004AACC0CBB3F0AB5A /* [CP] Check Pods Manifest.lock */,
+				B821F6C41F5080D300FEDC49 /* Sources */,
+				B821F6C51F5080D300FEDC49 /* Frameworks */,
+				B821F6C61F5080D300FEDC49 /* Resources */,
+				B869C5271F7D659B0014BDE2 /* Embed Watch Content */,
+				106925B334CF166D64BC56A7 /* [CP] Embed Pods Frameworks */,
+				24683AA62F1F9B68665C5D11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIncendio Beta";
+			productName = "PIncendio Beta";
+			productReference = B8D756C11F7D69670028C20A /* PIncendio Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B821F6C01F5080D300FEDC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chrystian Salgado";
+				TargetAttributes = {
+					B821F6C71F5080D300FEDC49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HT3YCTX6YE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B821F6C31F5080D300FEDC49 /* Build configuration list for PBXProject "PIncendio Beta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B821F6BF1F5080D300FEDC49;
+			productRefGroup = B821F6BF1F5080D300FEDC49;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B821F6C71F5080D300FEDC49 /* PIncendio Beta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B821F6C61F5080D300FEDC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B821F6D91F5080D300FEDC49 /* LaunchScreen.storyboard in Resources */,
+				B821F6D61F5080D300FEDC49 /* Assets.xcassets in Resources */,
+				B821F6D11F5080D300FEDC49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106925B334CF166D64BC56A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CSUtils/CSUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24683AA62F1F9B68665C5D11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E20F004AACC0CBB3F0AB5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PIncendio Beta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B821F6C41F5080D300FEDC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B801A42E1FF034FB0072DB7A /* anexosData.swift in Sources */,
+				B821F6D41F5080D300FEDC49 /* PIncendio_Beta.xcdatamodeld in Sources */,
+				B8C522981FDF5E27009BBEE8 /* CargaIncendioViewController.swift in Sources */,
+				B80682401F5C371700E84EE9 /* PopulacaoViewController.swift in Sources */,
+				B80315F11F5B170D00661AD8 /* AnaliseViewController.swift in Sources */,
+				B821F6CE1F5080D300FEDC49 /* ListaViewController.swift in Sources */,
+				B821F6CC1F5080D300FEDC49 /* AppDelegate.swift in Sources */,
+				B82D08621F50E1A000C76CEC /* CadastroViewController.swift in Sources */,
+				B80183C41FD44C8A000DE149 /* Processo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B821F6CF1F5080D300FEDC49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B821F6D01F5080D300FEDC49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B821F6D71F5080D300FEDC49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B821F6D81F5080D300FEDC49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B821F6DB1F5080D300FEDC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B821F6DC1F5080D300FEDC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B821F6DE1F5080D300FEDC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A111693A65AB5A18682233E /* Pods-PIncendio Beta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HT3YCTX6YE;
+				INFOPLIST_FILE = "PIncendio Beta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Udemy.Curso.tcc.PIncendio-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B821F6DF1F5080D300FEDC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4383050EBBA7F6BA9AB7BB0 /* Pods-PIncendio Beta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HT3YCTX6YE;
+				INFOPLIST_FILE = "PIncendio Beta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Udemy.Curso.tcc.PIncendio-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B821F6C31F5080D300FEDC49 /* Build configuration list for PBXProject "PIncendio Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B821F6DB1F5080D300FEDC49 /* Debug */,
+				B821F6DC1F5080D300FEDC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B821F6DD1F5080D300FEDC49 /* Build configuration list for PBXNativeTarget "PIncendio Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B821F6DE1F5080D300FEDC49 /* Debug */,
+				B821F6DF1F5080D300FEDC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B821F6D21F5080D300FEDC49 /* PIncendio_Beta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B821F6D31F5080D300FEDC49 /* PIncendio_Beta.xcdatamodel */,
+			);
+			currentVersion = B821F6D31F5080D300FEDC49 /* PIncendio_Beta.xcdatamodel */;
+			path = PIncendio_Beta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B821F6C01F5080D300FEDC49 /* Project object */;
+}
