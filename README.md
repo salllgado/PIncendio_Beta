@@ -11,8 +11,7 @@ Requires iOS 10.0
 
 ## Author
 
-Chrystian Salgado Martins dos Santos
-iOS Developer
+Chrystian Salgado Martins dos Santos - iOS Developer
 
 Contact
 - email: salgado.dev@gmail.com
