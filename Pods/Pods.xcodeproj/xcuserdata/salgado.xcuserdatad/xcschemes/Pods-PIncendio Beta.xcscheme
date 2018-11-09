@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E63BEC3627DBBDAC2002797238E6A33"
+               BlueprintIdentifier = "E1FA544AD0889839B099282C9A4E6A5D"
                BlueprintName = "Pods-PIncendio Beta"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-PIncendio Beta.framework">

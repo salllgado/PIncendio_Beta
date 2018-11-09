@@ -167,7 +167,6 @@
 				B821F6C61F5080D300FEDC49 /* Resources */,
 				B869C5271F7D659B0014BDE2 /* Embed Watch Content */,
 				106925B334CF166D64BC56A7 /* [CP] Embed Pods Frameworks */,
-				24683AA62F1F9B68665C5D11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,21 +244,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		24683AA62F1F9B68665C5D11 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PIncendio Beta/Pods-PIncendio Beta-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E0E20F004AACC0CBB3F0AB5A /* [CP] Check Pods Manifest.lock */ = {

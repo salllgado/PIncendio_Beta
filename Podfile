@@ -10,7 +10,6 @@ target 'PIncendio Beta' do
   # Pods for PIncendio Beta
 
    pod 'TPKeyboardAvoiding', :git => 'https://github.com/michaeltyson/TPKeyboardAvoiding.git'
-   pod 'CSUtils', :path => '/Users/salgado/Documents/my_Projects/Projetos_iOS/CSUtils'
-
+   pod 'CSUtils', :git => 'https://github.com/salllgado/CSUtils.git'
 
 end
